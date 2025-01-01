@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "target": "ES6",
+      "module": "commonjs",
+      "baseUrl": "./src",  // مشخص کردن مسیر اصلی فایل‌ها
+      "paths": {
+        "*": ["node_modules/*", "src/*"]  // مسیرها و جستجوی فایل‌ها
+      },
+      "esModuleInterop": true,  // امکان استفاده از ماژول‌های ES
+      "strict": true,  // فعال کردن چک‌های دقیق‌تر
+      "skipLibCheck": true,  // غیرفعال کردن بررسی فایل‌های کتابخانه
+      "forceConsistentCasingInFileNames": true  // بررسی صحیح بودن حروف بزرگ و کوچک در نام‌ها
+    },
+    "include": ["src/**/*"],  // پوشه‌هایی که باید در کامپایل در نظر گرفته شوند
+    "exclude": ["node_modules"]  // پوشه‌هایی که باید نادیده گرفته شوند
+  }

@@ -1,0 +1,43 @@
+{
+  "name": "bskl",
+  "version": "3.1.5",
+  "description": "Bskl | An FrameWork for Links,URL ",
+  "main": "dist/index.js",
+  "readme": "https://github.com/amir10101-ctrl/Bskl/tree/main#readme",
+  "homepage": "https://bskl-ui-7bes.onrender.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amir10101-ctrl/Bskl",
+    "directory": "packages/bskl"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "Link",
+    "Bskl",
+    "Bskl-Nodes",
+    "URL",
+    "framework"
+  ],
+  "author": "Bskl-Nodes",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "@types/node-fetch": "^2.6.12",
+    "jest": "^29.7.0",
+    "node-fetch": "^2.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "bskl": "3.0.4",
+    "commander": "^13.0.0",
+    "gh-pages": "^6.2.0",
+    "node-cache": "^5.1.2",
+    "semver": "^7.6.3",
+    "typeScript": "npm:typescript@^5.7.2"
+  }
+}
