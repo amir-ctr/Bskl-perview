@@ -1,6 +1,6 @@
 {
   "name": "bskl",
-  "version": "3.1.6",
+  "version": "3.1.7",
   "description": "Bskl | An FrameWork for Links,URL ",
   "main": "dist/index.js",
   "readme": "https://github.com/amir10101-ctrl/Bskl/tree/main#readme",
@@ -8,7 +8,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/amir-ctr/Bskl-perview",
-    "directory": "packages/bskl"
+    "directory": "main"
   },
   "scripts": {
     "build": "npx tsc",
