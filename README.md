@@ -10,6 +10,10 @@ for Install This FrameWork Use :
 npm i bskl
 ```
 
+![npm](./badge.svg)
+![download](./badge2.svg)
+![install size](./badge3.svg)
+
 # For See More :
 https://bskl-ui-7bes.onrender.com
 
