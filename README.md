@@ -10,10 +10,38 @@ for Install This FrameWork Use :
 npm i bskl
 ```
 
-![npm](./badge.svg)
-![download](./badge2.svg)
-![install size](./badge3.svg)
+![npm](./badge.svg)(https://bskl-ui-7bes.onrender.com)
+![download](./badge2.svg)(https://bskl-ui-7bes.onrender.com)
+![install size](./badge3.svg)(https://bskl-ui-7bes.onrender.com)
 
+### How To Use Fast Dom
+For Using **queryById**:
+```javaScript
+const dom = new FastDom();
+
+try {
+  const header = dom.queryById<HTMLDivElement>("header");
+  header.textContent = "New Header Text!";
+  console.log(header.textContent);
+} catch (error) {
+  console.error(error);
+}
+```
+For Using **attribute**:
+```javaScript
+const dom = new FastDom();
+
+try {
+  const header = dom.queryById<HTMLDivElement>("header");
+  dom.safeSetAttribute(header, "aria-label", "Main Header");
+  console.log(header.getAttribute("aria-label")); // Outputs: "Main Header"
+} catch (error) {
+  console.error(error);
+}
+
+```
+
+** This is Beta Version We Not add The Features in The WebSite **
 # For See More :
 https://bskl-ui-7bes.onrender.com
 
@@ -24,3 +52,4 @@ https://bskl-ui-7bes.onrender.com
 #### WebSocket
 #### Logger Component
 #### Secure Your Project With Bskl
+#### Fast Dom With Bskl

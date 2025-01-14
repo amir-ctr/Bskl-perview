@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.rateLimit = exports.validateSecureLink = exports.generateSecureLink = exports.logLinkUsage = exports.strictIPCheck = exports.createMultiRouteLink = exports.LinkMonitor = exports.getAcceleratedLink = exports.fetchAsJson = exports.analyzeLinkContent = exports.WebSocketManager = exports.Cache = exports.RequestManager = exports.applyMiddleware = exports.useMiddleware = exports.QueryBuilder = exports.Logger = exports.isSecureUrl = exports.generateShortLink = exports.addMultipleParams = exports.updateQueryParam = exports.removeQueryParam = exports.addQueryParam = exports.LinkBuilder = exports.followRedirect = exports.parseUrl = void 0;
+exports.FastDom = exports.rateLimit = exports.logLinkUsage = exports.strictIPCheck = exports.createMultiRouteLink = exports.LinkMonitor = exports.getAcceleratedLink = exports.fetchAsJson = exports.analyzeLinkContent = exports.WebSocketManager = exports.Cache = exports.RequestManager = exports.applyMiddleware = exports.useMiddleware = exports.QueryBuilder = exports.Logger = exports.isSecureUrl = exports.generateShortLink = exports.addMultipleParams = exports.updateQueryParam = exports.removeQueryParam = exports.addQueryParam = exports.LinkBuilder = exports.followRedirect = exports.parseUrl = void 0;
 var urlParser_1 = require("./utils/urlParser");
 Object.defineProperty(exports, "parseUrl", { enumerable: true, get: function () { return urlParser_1.parseUrl; } });
 var urlValidator_1 = require("./utils/urlValidator");
@@ -43,8 +43,7 @@ var ipCheck_1 = require("./secure/ipCheck");
 Object.defineProperty(exports, "strictIPCheck", { enumerable: true, get: function () { return ipCheck_1.strictIPCheck; } });
 var LinkLog_1 = require("./secure/LinkLog");
 Object.defineProperty(exports, "logLinkUsage", { enumerable: true, get: function () { return LinkLog_1.logLinkUsage; } });
-var ScLink_1 = require("./secure/ScLink");
-Object.defineProperty(exports, "generateSecureLink", { enumerable: true, get: function () { return ScLink_1.generateSecureLink; } });
-Object.defineProperty(exports, "validateSecureLink", { enumerable: true, get: function () { return ScLink_1.validateSecureLink; } });
 var RateLimit_1 = require("./secure/RateLimit");
 Object.defineProperty(exports, "rateLimit", { enumerable: true, get: function () { return RateLimit_1.rateLimit; } });
+var dom_1 = require("./dom/dom");
+Object.defineProperty(exports, "FastDom", { enumerable: true, get: function () { return dom_1.FastDom; } });
